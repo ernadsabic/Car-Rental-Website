@@ -1,0 +1,20 @@
+1. Primarna boja za dugmad (Glavni Action)
+#1E2522 (Ekstremno tamna, skoro crna maslinasta)
+
+Za šta: Glavna dugmad (Book a car, Pogledaj ponudu). Kada je tekst beo na ovoj boji, sajt izgleda skupo.
+
+Tailwind: bg-[#1E2522] text-white hover:bg-[#2D3A34]
+
+2. Akcentna boja (Glow, Linkovi, Bedževi)
+#648374 (Svetla žalfija/mint zelena)
+
+Za šta: Za onaj text-shadow glow efekat koji si tražio, aktivne linkove u navbaru, ili pozadinu malih bedževa (npr. "2024" ili "Automatic").
+
+Tailwind: text-[#8FA89B] ili bg-[#8FA89B]/10 text-[#8FA89B]
+
+3. Sekundarna boja (Sve ostalo)
+#6B7F74 (Srednje siva sa zelenim podtonom)
+
+Za šta: Za sporedne tekstove (npr. "Cena po danu"), opise, ikonice unutar kartica i sporednu dugmad.
+
+Tailwind: text-[#6B7F74]
