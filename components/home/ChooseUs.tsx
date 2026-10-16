@@ -49,7 +49,7 @@ const ChooseUs = () => {
           <div className="relative h-96 md:h-full shadow-lg rounded-xl overflow-hidden">
             <Image
               alt="Choose us"
-              src="/images/choose.jpg"
+              src="/images/choose.webp"
               fill
               className="object-cover"
             />
