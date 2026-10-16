@@ -14,10 +14,24 @@ const Hero = () => {
       {/* TEXT PART  */}
       <section
         id="hero"
-        className="relative pt-24 md:pt-0 min-h-[80vh] w-full bg-[url(/images/heroIMG2.jpg)] bg-cover bg-center bg-no-repeat  flex items-start md:items-center"
+        className="relative pt-24 md:pt-0 min-h-[80vh] w-full flex items-start md:items-center"
       >
-        <div className="absolute inset-0 bg-black/50 z-10 "></div>
-        <div className="container mx-auto px-8 py-4  z-20 text-[#F5F5F7]">
+        {/* VIDEO BACKGROUND */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          <source src="/hero-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        {/* OVERLAY ZA TAMNJENJE VIDEA */}
+        <div className="absolute inset-0 bg-black/50 z-10"></div>
+
+        <div className="container mx-auto px-8 py-4 z-20 text-[#F5F5F7]">
           <div className="flex flex-col gap-4 md:gap-8 mb-8 max-w-3xl">
             <h4 className="text-[#799e8d] font-medium">
               FIND YOUR PERFECT CAR
