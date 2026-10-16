@@ -5,19 +5,19 @@ import Link from "next/link";
 
 const cards = [
   {
-    image: "/images/deal.jpg",
+    image: "/images/deal.webp",
     pre_header: "Pricing",
     header: "Rates that stay honest",
     paragraph: "No hidden fees, no surprises at checkout",
   },
   {
-    image: "/images/rent_key.jpg",
+    image: "/images/rent_key.webp",
     pre_header: "Flexibility",
     header: "Rent for a day or a month",
     paragraph: "Adjust your plans whenever the road changes",
   },
   {
-    image: "/images/cars.jpg",
+    image: "/images/cars.webp",
     pre_header: "Trust",
     header: "Vehicles maintained and ready",
     paragraph: "Every car inspected before you drive it away",

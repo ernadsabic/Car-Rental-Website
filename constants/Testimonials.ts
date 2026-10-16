@@ -12,7 +12,7 @@ export const testimonials: Testimonial[] = [
       "Horizon is a game-changer for business trips. Premium cars, seamless booking, and completely stress-free travel. Highly recommended!",
     name: "Kylian Gyokers",
     profession: "Business Executive",
-    image: "/images/person.jpg",
+    image: "/images/person.webp",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const testimonials: Testimonial[] = [
       "An absolute pleasure from start to finish. The vehicle was in pristine condition, the pricing was completely transparent, and the customer service was top-notch.",
     name: "David Jenkins",
     profession: "Travel Blogger",
-    image: "/images/person2.jpg",
+    image: "/images/person2.webp",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const testimonials: Testimonial[] = [
       "I needed to extend my rental at the last minute, and the support team handled it effortlessly. Having 24/7 assistance gave me total peace of mind on the road.",
     name: "Marcus Vance",
     profession: "Operations Manager",
-    image: "/images/person3.jpg",
+    image: "/images/person3.webp",
   },
   {
     id: 4,
@@ -36,6 +36,6 @@ export const testimonials: Testimonial[] = [
       "The best car rental service I've used so far. Fast pickup, premium cars, and absolutely no hidden fees. Will definitely book again for my next trip.",
     name: "Oliver Reed",
     profession: "Marketing Director",
-    image: "/images/person4.jpg",
+    image: "/images/person4.webp",
   },
 ];

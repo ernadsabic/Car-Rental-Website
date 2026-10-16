@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className="relative aspect-4/3 md:aspect-square lg:aspect-4/3 shadow-xl">
               <Image
-                src={"/images/about-main.jpg"}
+                src={"/images/about-main.webp"}
                 alt="About Us Image"
                 fill
                 className="object-cover z-10 overflow-hidden rounded-lg"
